@@ -21,11 +21,16 @@ h2{
     margin-top: 0;
     margin-bottom: 20px;
 }
+h3{
+    font-size: 15px;
+    font-weight: 100;
+}
 span{
     color: tomato;
 }
 p{
     font-size: 20px;
+    font-weight: 400px;
     width: 500px;
     margin-right: auto;
     margin-top: 50px;
@@ -55,6 +60,11 @@ img{
     margin-bottom: 10px;
     background-repeat: no-repeat;  
 }
+.first-f1{
+     border-left: 7px solid green;
+     padding-left: 20px;
+
+}
 .first-div{
     width: 50%;
     margin: 100px;  
@@ -79,11 +89,21 @@ img{
     width: 100%;
 }
 .second-div{
-    width: 100%;
+    width: 70%;
     background-color: rgb(229, 231, 250);
     padding: 40px;
     margin: 20px;
     border-radius: 20px;
+}
+.yellow{
+    background-color: rgb(243, 243, 166);
+}
+.cyan{
+    background-color: rgb(180, 248, 248);
+}
+.color-black{
+    color: black;
+    font-size: 35px;
 }
 .second-section-paragraph{
     width: auto;
@@ -103,8 +123,19 @@ img{
     background-repeat: no-repeat;  
 }
 .third-div{
-    width: 70%;
-    margin: 100px;  
+    width: auto;
+    margin: 100px;
+    margin-top: 200px;
+}
+.heading-size{
+    color: rgb(73, 72, 72);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.third-paragraph{
+    width: auto;
+    margin-right: 150px;
+    margin-top: 20px;
 }
 .third-div-image{
     width: 30%;
@@ -120,13 +151,70 @@ img{
     width: 50%;
     margin: 100px;  
 }
-.fourth-div-image{
-    width: 50%;  
+.fourth-paragraph{
+    width: auto;
 }
-footer{
-    background-color: rgb(5, 5, 5);
-    color: ivory;
+.fourth-div-image{
+    width: auto;
+
+}
+/*form*/
+form{
+    background-color: rgb(199, 210, 226);
+    width: 700px;
+    position: center;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: auto;
+    display: block;
+    padding: 50px;
+    
+
+}
+.form-heading{
+    font-size: 40px;
     text-align: center;
-    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.text{
+    margin: 20px;
     padding: 20px;
+    width: 500px;
+}
+.email{
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+}
+.number{
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+}
+.message{
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    height: 400px;
+}
+.submit{
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+
+}
+
+/*footer*/
+footer{
+    display: block;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    
+}
+.footer-heading{
+    font-size: 40px;
 }
