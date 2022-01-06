@@ -13,6 +13,7 @@ h1{
     color: gray;
     margin-bottom: 0;
     margin-top: 50px;
+    margin: auto;
 }
 h2{
     font-size: 60px;
@@ -26,6 +27,7 @@ span{
 p{
     font-size: 20px;
     width: 500px;
+    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 60px;
     text-align: justify;
@@ -50,7 +52,7 @@ img{
 .first-section{
     margin: 200px;
     margin-top: auto;
-    background-image: url(images/shapes/shape-4.png);
+    margin-bottom: 10px;
     background-repeat: no-repeat;  
 }
 .first-div{
@@ -63,6 +65,7 @@ img{
 /* Second Section*/
 .second-section{
     margin: 200px;
+    margin-bottom: 5px;
     margin-top: auto;
     background-repeat: no-repeat;  
 }
@@ -95,22 +98,22 @@ img{
 /* Third Section */
 .third-section{
     margin: 200px;
-    margin-top: auto;
-    background-image: url(images/shapes/shape-4.png);
+    margin-top: 5px;
+    margin-bottom: 10px;
     background-repeat: no-repeat;  
 }
 .third-div{
-    width: 50%;
+    width: 70%;
     margin: 100px;  
 }
 .third-div-image{
-    width: 50%;  
+    width: 30%;
+    margin-left: 300px;
 }
 /* Fourth Section*/
 .fourth-section{
     margin: 200px;
     margin-top: auto;
-    background-image: url(images/shapes/shape-4.png);
     background-repeat: no-repeat;  
 }
 .fourth-div{
@@ -119,4 +122,11 @@ img{
 }
 .fourth-div-image{
     width: 50%;  
+}
+footer{
+    background-color: rgb(5, 5, 5);
+    color: ivory;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
 }
