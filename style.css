@@ -56,9 +56,11 @@ img{
 /* First section */
 .first-section{
     margin: 200px;
+    margin-left: 100px;
     margin-top: auto;
     margin-bottom: 10px;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
+    width: 100%;  
 }
 .first-f1{
      border-left: 7px solid green;
@@ -118,6 +120,7 @@ img{
 /* Third Section */
 .third-section{
     margin: 200px;
+    margin-left: 100px;
     margin-top: 5px;
     margin-bottom: 10px;
     background-repeat: no-repeat;  
@@ -139,11 +142,12 @@ img{
 }
 .third-div-image{
     width: 30%;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 /* Fourth Section*/
 .fourth-section{
     margin: 200px;
+    margin-left: 100px;
     margin-top: auto;
     background-repeat: no-repeat;  
 }
